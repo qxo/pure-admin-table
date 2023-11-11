@@ -109,8 +109,8 @@ import { useI18n } from "vue-i18n";
 import { useColumns } from "./columns";
 import { ElDivider } from "element-plus";
 import { h, ref, reactive, onMounted } from "vue";
-import en from "element-plus/lib/locale/lang/en";
-import zhCn from "element-plus/lib/locale/lang/zh-cn";
+import en from "element-plus/es/locale/lang/en";
+import zhCn from "element-plus/es/locale/lang/zh-cn";
 import {
   PureTable,
   type PaginationProps,
