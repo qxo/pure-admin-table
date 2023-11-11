@@ -8,7 +8,7 @@
 <script lang="ts" setup>
 import { ref, reactive } from "vue"
 import type { TableColumns } from "@pureadmin/table"
-import zhCn from "element-plus/lib/locale/lang/zh-cn"
+import zhCn from "element-plus/es/locale/lang/zh-cn"
 
 const columns: Array<TableColumns> = [{
   label: "Date",
