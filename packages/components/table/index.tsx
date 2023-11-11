@@ -286,8 +286,8 @@ export default defineComponent({
                 "total, sizes, prev, pager, next, jumper"
               }
               pageSizes={unref(pagination).pageSizes ?? [5, 10, 15, 20]}
-              onSizeChange={val => handleSizeChange(val)}
-              onCurrentChange={val => handleCurrentChange(val)}
+              onSize-change={val => handleSizeChange(val)}
+              onCurrent-change={val => handleCurrentChange(val)}
             ></ElPagination>
           ) : null}
         </>
